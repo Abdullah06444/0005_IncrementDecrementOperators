@@ -27,11 +27,11 @@ int main()
 	scanf("%d%d%d", &a, &b, &c);
 
 	printf("\nCalculate the a x b + c x 2 + 1 : %d\n"
-		"After add one to 'a' number.\n\n", a++*b+c*2+1);
+		"After add one to 'a' number.\n\n", a++ * b + c * 2 + 1);
 	printf("Before add one to 'a' number.\n"
-		"Calculate the a x (b+c) x 2 + 1 : %d\n\n", ++a*(b+c)*2+1);
+		"Calculate the a x (b+c) x 2 + 1 : %d\n\n", ++a * (b + c) * 2 + 1);
 	printf("Calculate the a x b - c x 2 - z : %d\n"
-		"After minus one to 'a' number.\n\n", a--*b-c*2-1);
+		"After minus one to 'a' number.\n\n", a-- * b - c * 2 - 1);
 	printf("Before minus one to 'a' number.\n"
-		"Calculate the (a x b) - c x (2 - 1) : %d\n", (--a*b)-c*(2-1));
+		"Calculate the (a x b) - c x (2 - 1) : %d\n", (--a * b) - c * (2 - 1));
 }
